@@ -29,6 +29,9 @@ Junction Object -
 
 Instead of lookup we can use junction object.
 This object is created by using master detail relation on child objects to parent object.
+In junction:
+The child here is the junction object. And the two main objects is the master.
+
 
 
 
