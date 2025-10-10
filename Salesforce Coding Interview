@@ -1,3 +1,5 @@
+https://www.salesforceben.com/relationships-in-salesforce/
+
 1. Lookup Relationships
 
 Loosely coupled relationship. 
@@ -17,6 +19,26 @@ Allow reparenting on the child object will allow to change the parent object rec
 weet spot with master-detail relationships is that you can create roll-up summary fields! 
 Note that a single object can have a maximum of two master-detail relationships.
 Standard object record cannot be a child.
+
+3. Many-to-Many Relationships
+Situation where it is required you have many of one record related to many of another. 
+Duplicating the lookup field a number of times on each object is not the best practice and will get very messy.
+This is where we should leverage Junction Objects.
+
+Junction Object - 
+
+Instead of lookup we can use junction object.
+This object is created by using master detail relation on child objects to parent object.
+
+
+
+
+
+
+
+
+
+
 
 
 
