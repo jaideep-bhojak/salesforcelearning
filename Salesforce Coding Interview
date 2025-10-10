@@ -1,1 +1,5 @@
+1. Lookup Relationships
+
+Loosely coupled relationship. 
+Connect one object to another in a one-to-many fashion.
 
