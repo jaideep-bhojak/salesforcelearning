@@ -4,14 +4,19 @@ Loosely coupled relationship.
 Connect one object to another in a one-to-many fashion.
 
 If parent gets deleted this does not mean the child gets deleted and vice versa.
+Standard object record can be on the detail side of a custom object in a lookup relationship.
+You can have a maximum of 40 lookups on an object.
 
 
 2. Master-Detail Relationship
 
-Strongly coupled relationship – meaning if the parent is deleted, so are the child records. 
+Strongly coupled relationship – meaning if the parent is deleted, so are the child records. (Cascade delete.)
 Parent record to control child record attributes, such as sharing and visibility. 
 
 Allow reparenting on the child object will allow to change the parent object records. 
 weet spot with master-detail relationships is that you can create roll-up summary fields! 
 Note that a single object can have a maximum of two master-detail relationships.
+Standard object record cannot be a child.
+
+
 
