@@ -1,5 +1,6 @@
 https://www.salesforceben.com/relationships-in-salesforce/
 
+There are 6 types of relationships in salesforce
 1. Lookup Relationships
 
 Loosely coupled relationship. 
@@ -31,8 +32,16 @@ Instead of lookup we can use junction object.
 This object is created by using master detail relation on child objects to parent object.
 In junction:
 The child here is the junction object. And the two main objects is the master.
+There is also an example within 'standard' Salesforce objects with Opportunity Products. 
+If you want to assign Products to a certain Salesforce Opportunity, you will need to use the Opportunity Line items object (a junction object).
 
 
+4. Self Relationship
+
+Let’s say you have a campaign that is a part of a bigger campaign.
+Multiple child campaigns relate to the main parent campaign.  (known as a Campaign Hierarchy).
+Like a child quote created from a parent quote.
+Will learn about campaign heirarchy later.
 
 
 
