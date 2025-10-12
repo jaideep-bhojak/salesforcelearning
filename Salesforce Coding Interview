@@ -54,6 +54,39 @@ Imply two different license types: Salesforce User License and Experience Cloud 
 
 Salesforce Users License:
 
+Types of Salesforce Licenses
+
+A Salesforce license is fundamentally a concept of authorization, not authentication. 
+A license dictates what a user is authorized to access within the Salesforce ecosystem, such as features, products, and objects.
+Salesforce licenses are allocated to individual users, giving them access to various Salesforce products and features.
+
+Salesforce Licenses: These are user-specific and provide a baseline level of access to products and features, 
+                     which can be further adjusted through profiles, permission sets, and the role hierarchy. 
+
+Salesforce User Licenses vs. Salesforce Feature Licenses
+
+Salesforce User Licenses: 
+
+Determine the baseline of the features a user can access.
+
+A user may only have one user license. Examples include Salesforce, Identity, and Platform Starter. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
