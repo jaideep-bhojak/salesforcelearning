@@ -82,6 +82,12 @@ Assign feature licenses (optional) – access to features that are not included 
 
 3. Salesforce Platform Licenses:
 
+Platform licenses are available in Enterprise and Unlimited editions.
+Platform licenses include accounts, contacts, and reports, as well as the automation tools such as
+ e.g. Process Builder, Flow, and Apex).
+
+4. Salesforce Identity Licenses
+
 
 
 
