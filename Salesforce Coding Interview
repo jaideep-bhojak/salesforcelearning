@@ -43,6 +43,16 @@ Multiple child campaigns relate to the main parent campaign.  (known as a Campai
 Like a child quote created from a parent quote.
 Will learn about campaign heirarchy later.
 
+Day 2
+
+Salesforce User Management
+
+ User object is likely one of the key standard Salesforce objects.
+1. Types of Users in Salesforce
+Depending on the Salesforce products you use within your org, there may be internal as well as external users.
+Imply two different license types: Salesforce User License and Experience Cloud License.
+
+
 
 
 
