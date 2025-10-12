@@ -87,7 +87,23 @@ Platform licenses include accounts, contacts, and reports, as well as the automa
  e.g. Process Builder, Flow, and Apex).
 
 4. Salesforce Identity Licenses
+5. Salesforce Einstein Licenses
+6. Salesforce Experience Cloud (Community) Licenses
+   There are five license types:
 
+   External App
+   Customer Community
+   Customer Community Plus
+   Partner Community
+   Channel
+
+7. Salesforce Integration User Licenses
+
+Designed for system-to-system integrations, as it only provides the user with API access.
+Simply put, your instance’s functionality or data cannot be accessed through the user interface by users who are assigned this license type.
+
+Designed for system-to-system integrations, as it only provides the user with API access. 
+Simply put, your instance’s functionality or data cannot be accessed through the user interface by users who are assigned this license type.
 
 
 
