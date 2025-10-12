@@ -65,11 +65,11 @@ Salesforce Licenses: These are user-specific and provide a baseline level of acc
 
 Salesforce User Licenses vs. Salesforce Feature Licenses
 
-Salesforce User Licenses: Almost 24 types
+1. Salesforce User Licenses: Almost 24 types
 Determine the baseline of the features a user can access.
 A user may only have one user license. Examples include Salesforce, Identity, and Platform Starter. 
 
-Salesforce Feature Licenses:
+2. Salesforce Feature Licenses:
 Entitle a user to access an additional feature that’s not included with their user license (base edition).
 Marketing User, Flow User, Knowledge User, and Service Cloud User etc.
 
@@ -79,6 +79,10 @@ Choose an edition →
 Purchase licenses → 
 Assign user licenses to users → 
 Assign feature licenses (optional) – access to features that are not included with the base edition. 
+
+3. Salesforce Platform Licenses:
+
+
 
 
 
