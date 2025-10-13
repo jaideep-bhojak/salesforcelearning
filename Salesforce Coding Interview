@@ -173,6 +173,18 @@ R = read
 E = edit
 D = delete
 
+System administrator is a profile.
+
+It determines:
+Which objects (e.g., Leads, Opportunities, Accounts) the user can access
+What actions they can perform on those objects (Create, Read, Edit, Delete — aka CRUD)
+Which fields are visible or editable
+Which tabs, apps, and page layouts are available
+System permissions (e.g., “Modify All Data”, “Run Reports”, “API Access”)
+
+Every Salesforce user must be assigned exactly one profile, which acts as their baseline access configuration.
+
+
 
 
 
