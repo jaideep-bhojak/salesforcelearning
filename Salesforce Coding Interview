@@ -202,11 +202,13 @@ So its just permission to do work on data table. Or we can say it is a limitatio
 
 For fields -
 
-Field-Level Security	Determines visibility/editability of individual fields. 
+Field-Level Security	Determines visibility/editability of individual fields.  ( Read and edit access can be controlled on specific fields )
 We can either view a field or row in table like department is visible or not.
 And we can edit this department field or not - Like Computer science to Mechanical can be assigned or not.
 
-Only Required Fields and master-detail fields on child are Always 'Required' By default.
+Only Required Fields and master-detail fields on child (Always 'Required' By default.) cant be controlled on field level security in salesforce.
+They are always Readable and editable.
+
 
 
 
