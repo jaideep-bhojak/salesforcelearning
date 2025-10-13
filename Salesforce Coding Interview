@@ -141,6 +141,27 @@ Step	Topic	Why This Order Matters
 Salesforce Security Model:
 All the above topics fall under security model of the salesforce.
 
+Setup:
+Users -> All the security options are present under the Users tab so these all are user specific.
+
+Permission Set Groups
+
+Permission Sets
+
+Profiles
+
+Public Groups
+
+Queues
+
+Roles
+
+User Access Policies
+
+User Management Settings
+
+Users
+
 What are the differences between Salesforce Roles and Profiles?
 "Roles see, profiles do".
 
@@ -151,6 +172,7 @@ C = create
 R = read
 E = edit
 D = delete
+
 
 
 
