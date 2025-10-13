@@ -188,6 +188,26 @@ not first go to the Profiles and check under standard or custom object permissio
 
 "Profiles are designed to group users into functions, for example, ‘Sales’, ‘Support’ etc."
 
+*-----------------------------------------------------------------*
+Salesforce license
+Standard User License - Salesforce, Platform user and all.
+Profiles - Object Crud access - App konse object ke records pr operations perform kr sakte ho. Fields and all. Read kr sakte ho, records create lr sakte ho and all.
+
+System admin ek profile he:
+
+Wo dene se hum authorization kr rahe he ek user ko ki wo kya kya access kr sakta he, and wo kya kya records pr crud operations kr sakta he.
+
+So its just permission to do work on data table. Or we can say it is a limitation that what all work a user can do on the database data.
+*-----------------------------------------------------------------*
+
+For fields -
+
+Field-Level Security	Determines visibility/editability of individual fields. 
+We can either view a field or row in table like department is visible or not.
+And we can edit this department field or not - Like Computer science to Mehcanical can be assigned or not.
+
+
+
 
 
 
