@@ -206,6 +206,7 @@ Field-Level Security	Determines visibility/editability of individual fields.
 We can either view a field or row in table like department is visible or not.
 And we can edit this department field or not - Like Computer science to Mechanical can be assigned or not.
 
+Only Required Fields and master-detail fields on child are Always 'Required' By default.
 
 
 
