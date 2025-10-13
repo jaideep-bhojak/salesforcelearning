@@ -109,6 +109,8 @@ Simply put, your instance’s functionality or data cannot be accessed through t
 8. Marketing Cloud Licenses
 9. Account Engagement (Pardot) Licenses
 
++----------------------------------------------------------------------------------------------+
+
 Salesforce Architechture
 
 +-----------------------------+
@@ -134,6 +136,22 @@ Step	Topic	Why This Order Matters
 3️⃣	Role Hierarchy	Opens access vertically (managers see subordinates’ records). Builds on OWD.
 4️⃣	Sharing Rules	Opens access horizontally (peer-level sharing). Refines OWD for specific conditions.
 5️⃣	Manual Sharing	User-controlled sharing for individual records. Last layer of flexibility.
+
+
+Salesforce Security Model:
+All the above topics fall under security model of the salesforce.
+
+What are the differences between Salesforce Roles and Profiles?
+"Roles see, profiles do".
+
+What is a Salesforce Profile?
+
+Profiles control what users can do in your Salesforce org. This can be referred to as CRED:
+C = create
+R = read
+E = edit
+D = delete
+
 
 
 
