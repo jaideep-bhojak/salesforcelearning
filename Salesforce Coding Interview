@@ -109,6 +109,24 @@ Simply put, your instance’s functionality or data cannot be accessed through t
 8. Marketing Cloud Licenses
 9. Account Engagement (Pardot) Licenses
 
+Salesforce Architechture
+
++-----------------------------+
+|     User Interface Layer    |
++-----------------------------+
+|        Logic Layer          |
++-----------------------------+
+|         Data Layer          |
++-----------------------------+
+|         API Layer           |
++-----------------------------+
+|       Metadata Layer        |
++-----------------------------+
+| Einstein 1 Platform (Core)  |
++-----------------------------+
+| Multitenant Cloud Platform  |
++-----------------------------+
+
 
 
 
