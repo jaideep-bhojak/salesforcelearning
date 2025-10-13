@@ -209,6 +209,9 @@ And we can edit this department field or not - Like Computer science to Mechanic
 Only Required Fields and master-detail fields on child (Always 'Required' By default.) cant be controlled on field level security in salesforce.
 They are always Readable and editable.
 
+What About Permission Sets?
+
+Permission sets could be considered add-ons for profiles.
 
 
 
