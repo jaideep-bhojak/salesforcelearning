@@ -128,6 +128,12 @@ Salesforce Architechture
 +-----------------------------+
 
 
+Step	Topic	Why This Order Matters
+1️⃣	Profiles & Permission Sets	Controls object-level and field-level access. Foundation for what users can see/do.
+2️⃣	OWD (Organization-Wide Defaults)	Sets record-level access baseline. Defines how broadly records are shared by default.
+3️⃣	Role Hierarchy	Opens access vertically (managers see subordinates’ records). Builds on OWD.
+4️⃣	Sharing Rules	Opens access horizontally (peer-level sharing). Refines OWD for specific conditions.
+5️⃣	Manual Sharing	User-controlled sharing for individual records. Last layer of flexibility.
 
 
 
