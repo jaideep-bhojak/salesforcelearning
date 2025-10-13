@@ -204,7 +204,7 @@ For fields -
 
 Field-Level Security	Determines visibility/editability of individual fields. 
 We can either view a field or row in table like department is visible or not.
-And we can edit this department field or not - Like Computer science to Mehcanical can be assigned or not.
+And we can edit this department field or not - Like Computer science to Mechanical can be assigned or not.
 
 
 
