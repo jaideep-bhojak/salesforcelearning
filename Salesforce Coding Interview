@@ -212,13 +212,13 @@ They are always Readable and editable.
 What About Permission Sets?
 
 Permission sets could be considered add-ons for profiles.
-
 Profiles are basically a group which has some permissions. A user is assigned this means now whole group has access to those stuff.
 But what if a user from this group needs to be given some special access. In that case we provide permission set to that user.
 
-
 Profiles - Accesses of a group.
 Permission Set - Special or add on access to the user assigned to a particular profile.
+
+
 
 
 
