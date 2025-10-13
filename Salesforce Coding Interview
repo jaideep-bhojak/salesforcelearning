@@ -217,6 +217,9 @@ Profiles are basically a group which has some permissions. A user is assigned th
 But what if a user from this group needs to be given some special access. In that case we provide permission set to that user.
 
 
+Profiles - Accesses of a group.
+Permission Set - Special or add on access to the user assigned to a particular profile.
+
 
 
 
