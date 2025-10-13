@@ -181,8 +181,10 @@ What actions they can perform on those objects (Create, Read, Edit, Delete — a
 Which fields are visible or editable
 Which tabs, apps, and page layouts are available
 System permissions (e.g., “Modify All Data”, “Run Reports”, “API Access”)
-
 Every Salesforce user must be assigned exactly one profile, which acts as their baseline access configuration.
+So to check if the user has the permission to see the object or 
+not first go to the Profiles and check under standard or custom object permissions.
+
 
 
 
