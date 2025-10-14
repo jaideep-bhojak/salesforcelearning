@@ -262,6 +262,12 @@ So in 1 I can do what operations on course object is mentioned but in 2 I can do
 In Public I can see others records but cant do anything else. Buttons are showing to edit but we can't.
 
 So, basically OWD is for accessing others records.
+Now I have set other can just see my records but cant do anything else on those.
+
+But now i want to open this security a bit.
+I want my manager can access these records and edit them as well. So I am going to use roles for this. 
+Opening my records access vertically.
+
 
 
 
