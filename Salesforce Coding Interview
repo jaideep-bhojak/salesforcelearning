@@ -219,9 +219,11 @@ Profiles - Accesses of a group.
 Permission Set - Special or add on access to the user assigned to a particular profile.
 In order to grant a very specific ability to a user, you obviously don’t want to create a whole new profile.
 
++-------------------------------------------------------------------------------------------------+
 
+Sharing Settings:
 
-
+Profiles control what a user can do in Salesforce (permissions), while Roles control what data a user can see (record visibility).
 
 
 
