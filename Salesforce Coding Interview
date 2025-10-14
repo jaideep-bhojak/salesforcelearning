@@ -232,15 +232,22 @@ We want to control the security of the records the users "dont own".
 OWD is a key part of Salesforce’s "record-level" security model.
 
 Why It’s Needed:
+
 Protect sensitive data: Prevent users from seeing or editing records they shouldn’t.
 
 Establish minimum access: Define what the most restricted user can see or do.
 
 Enable layered sharing: Acts as the foundation for more advanced sharing mechanisms like roles, sharing rules, and teams.
 
+Access Level	Description:
+Private	Users can only see records they own.
+Public Read Only	Users can view all records but only edit their own.
+Public Read/Write	Users can view and edit all records.
+Controlled by Parent	Access is determined by the parent object (used for child relationships).
+Can configure OWD for both standard objects (like Account, Opportunity) and custom objects.
 
-
-
+Yes, in Salesforce, objects that are part of a Master-Detail relationship automatically have their 
+Organization-Wide Defaults (OWD) set to “Controlled by Parent".
 
 
 
