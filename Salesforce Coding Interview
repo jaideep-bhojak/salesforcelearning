@@ -259,8 +259,7 @@ Kyuki master pr access nai hua to child me master object ki field error degi. Ki
 2 Now in owd I made the access to Private on Course Object. Means I can't see other users records. Hence I cant do crud on their records.
 So in 1 I can do what operations on course object is mentioned but in 2 I can do those operations on which records is mentioned.
 
-
-
+In Public I can see others records but cant do anything else. Buttons are showing to edit but we can't.
 
 
 
