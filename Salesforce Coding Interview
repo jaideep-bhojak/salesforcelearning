@@ -253,6 +253,8 @@ When an object is a detail in a Master-Detail relationship:
 Its record-level access is inherited from the master (parent) object.
 You cannot set OWD manually for the detail object — Salesforce disables that option.
 
+Kyuki master pr access nai hua to child me master object ki field error degi. Ki master kaha he!
+
 
 
 
