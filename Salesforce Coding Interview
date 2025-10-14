@@ -255,7 +255,8 @@ You cannot set OWD manually for the detail object — Salesforce disables that o
 
 Kyuki master pr access nai hua to child me master object ki field error degi. Ki master kaha he!
 
-
+On Course object I gave all the access on profile to perform cred on the object so one can do all the operations on the records present.
+Now in owd I made the access to Private on Course Object. Means I cant see other users records. Hence I cant do crud on their records.
 
 
 
