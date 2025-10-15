@@ -285,6 +285,12 @@ By default the ones above in the heirarchy, can see, edit and delete the records
 ones below them in the case when the OWD of that object is set to private. Not the ones in parallel.
 They cant see the records of someone in parallel.
 
+----------------------------------------------------+ Understood roles now
+
+Now if I wish to open my records horizontally.
+
+4️⃣	Sharing Rules	Opens access horizontally (peer-level sharing). Refines OWD for specific conditions.
+
 
 
 
