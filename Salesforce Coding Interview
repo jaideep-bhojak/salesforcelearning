@@ -268,7 +268,9 @@ But now i want to open this security a bit.
 I want my manager can access these records and edit them as well. So I am going to use roles for this. 
 Opening my records access vertically.
 
+Roles ---------
 
+Think of roles as vertical access control: they determine who can see data owned by whom
 
 
 
