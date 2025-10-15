@@ -281,7 +281,7 @@ CEO
 If OWD is Private, a Sales Rep can only see their own records.
 But the Regional Manager, VP, and CEO can see the Sales Rep’s records because they are higher in the role hierarchy.
 
-
+By default the ones above in the heirarchy, can see, edit and delete the records of the ones.
 
 
 
