@@ -270,7 +270,11 @@ Opening my records access vertically.
 
 Roles ---------
 
-Think of roles as vertical access control: They determine who can see data owned by whom
+Think of roles as vertical access control: They determine who can see data owned by whom.
+They work in tandem with OWD (Organization-Wide Defaults) to open up access upward in the hierarchy.
+
+
+
 
 
 
