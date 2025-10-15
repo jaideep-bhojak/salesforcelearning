@@ -296,7 +296,11 @@ Sharing Rules are automated rules that grant additional access to records based 
 a. Who owns the record (owner-based sharing)
 b. What the record contains (criteria-based sharing)
 
+Why Use Sharing Rules?
 
+OWD sets the baseline (e.g., Private), but Sharing Rules let you open up access.
+They’re essential when users need access to records they don’t own.
+You can share with roles, public groups, or territories.
 
 
 
