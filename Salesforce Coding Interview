@@ -273,7 +273,13 @@ Roles ---------
 Think of roles as vertical access control: They determine who can see data owned by whom.
 They work in tandem with OWD (Organization-Wide Defaults) to open up access upward in the hierarchy.
 
+CEO
+└── VP of Sales
+    └── Regional Manager
+        └── Sales Rep
 
+If OWD is Private, a Sales Rep can only see their own records.
+But the Regional Manager, VP, and CEO can see the Sales Rep’s records because they are higher in the role hierarchy.
 
 
 
