@@ -225,7 +225,7 @@ Sharing Settings:
 
 Profiles control what a user can do in Salesforce (permissions), while Roles control what data a user can see (record visibility).
 
-2️⃣	OWD (Organization-Wide Defaults)	Sets record-level access baseline. Defines how broadly records are shared by default.
+2️⃣	OWD (Organization-Wide Defaults)	Sets record-level access baseline. Defines how broadly records are shared by default. -- Note: It is set for all the profiles in one go. So it is organisation wide default.
 
 Now we can control the record visibility as well in the salesforce. But why?
 We want to control the security of the records the users "dont own".
