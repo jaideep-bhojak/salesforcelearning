@@ -324,8 +324,8 @@ In Lightning, the "Sharing" button is not shown by default.
 You need to add it manually to the page layout.
 Only the record owner or users above the owner in the role hierarchy can manually share a record.
 If the user doesn’t own the record, they won’t see the button — even if they have read/write access.
-
 I created a records as svp of marketing and sales and shared it with the vp of sales who is lower in the heirarchy by clicking on the sharing button of the dropdown.
+To send the record manually to other roles, you need to give view all permission set in system settings to the user or any other way. Need to check.
 
 
 
