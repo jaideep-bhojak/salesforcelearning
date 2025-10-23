@@ -309,9 +309,21 @@ On same page : Sharing settings
 We have option to create a sharing rule.
 
 🧱 Example Use Case
-You set Case OWD to Private. You create a criteria-based sharing rule to share all Cases with Priority = High to the Support Escalation Team
+You set Case OWD to Private. You create a criteria-based sharing rule to share all Cases with Priority = High to the Support Escalation Team.
 
+Went to sharing settings page having both OWD and Sharing rules:
+Added a new rule on Owner based sharing.
+---------------------------------------------+
 
+Manual Sharing ---------
+
+Note:
+
+✅ 3. Lightning Experience Limitation
+In Lightning, the "Sharing" button is not shown by default.
+You need to add it manually to the page layout.
+Only the record owner or users above the owner in the role hierarchy can manually share a record.
+If the user doesn’t own the record, they won’t see the button — even if they have read/write access.
 
 
 
