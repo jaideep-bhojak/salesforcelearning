@@ -191,7 +191,7 @@ not first go to the Profiles and check under standard or custom object permissio
 *-----------------------------------------------------------------*
 Salesforce license
 Standard User License - Salesforce, Platform user and all.
-Profiles - Object Crud access - App konse object ke records pr operations perform kr sakte ho. Fields and all. Read kr sakte ho, records create lr sakte ho and all.
+Profiles - Object Crud access - App konse object ke records pr operations perform kr sakte ho. Fields and all. Read/Edit kr sakte ho, records create lr sakte ho and all.
 
 System admin ek profile he:
 
