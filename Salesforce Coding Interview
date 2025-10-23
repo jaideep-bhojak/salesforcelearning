@@ -291,8 +291,9 @@ Now if I wish to open my records horizontally.
 
 4️⃣	Sharing Rules	Opens access horizontally (peer-level sharing). Refines OWD for specific conditions.
 
-Sharing Rules are automated rules that grant additional access to records based on:(Types)
+Sharing Rules are automated rules that grant additional access to records based on:
 
+(Types)
 a. Who owns the record (owner-based sharing) -- Share all records owned by “Sales Reps” with “Sales Managers”
 b. What the record contains (criteria-based sharing) -- Share all Accounts where Industry = Healthcare with “Healthcare Team”
 
