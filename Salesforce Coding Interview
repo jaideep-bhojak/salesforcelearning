@@ -344,8 +344,8 @@ Same can be done from the permission set in the object settings for particular u
 Now lets see from page layouts:
 
 With the help of page layout in Salesforce, we can make a field read-only, or required.
-
 We can make field readonly for any particular profile while creating that field as well.
+
 
 
 
