@@ -346,7 +346,20 @@ Now lets see from page layouts:
 With the help of page layout in Salesforce, we can make a field read-only, or required.
 We can make field readonly for any particular profile while creating that field as well.
 
+Go to object -> page layouts -> edit -> click on wrench -> you can make it readonly or required.
 
+Even on fields on objects you can set the field level security as
+🔲 Visible	 🔲 Read-Only to any particular profile
+
+So 2 places to check the field level security:
+
+1. On objects field - If for any profile it is set as readonly or visibility is off.
+2. On Page layout - for readonly and required or not.
+
+Why Read-Only Fields Are Editable for System Admins
+✅ 1. System Admins Bypass Field-Level Security
+The System Administrator profile has “Modify All Data” and “Customize Application” permissions.
+These permissions allow admins to override field-level security, including read-only settings on page layouts.
 
 
 
