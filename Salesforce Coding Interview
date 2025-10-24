@@ -365,7 +365,7 @@ So general steps on field are ----------------------
 
 While creating the field i can set:
 
-1. Required on the creation page, whether its necessary or not. If not then ill leave it. (Once made it required you cant set it to readonly or not required on page layout).
+1. Required on the creation page, whether its necessary or not. If not then ill leave it. (Once made it required you cannot set it to readonly or not required on page layout).
 2. Visible for any profile or not. If visible
 3. Readonly for that profile or not.
 
