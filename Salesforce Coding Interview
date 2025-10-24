@@ -327,6 +327,25 @@ If the user doesn’t own the record, they won’t see the button — even if th
 I created a records as svp of marketing and sales and shared it with the vp of sales who is lower in the heirarchy by clicking on the sharing button of the dropdown.
 To send the record manually to other roles, you need to give view all permission set in system settings to the user or any other way. Need to check.
 
+24/10/2025
+
+Configuring Field-Level Security:
+
+There are multiple ways from which you can control field-level access inside Salesforce.
+
+Profiles
+Permission Set
+Page layout
+Lightning Record page (Dynamic Form)
+
+We have seen from profiles we can control the field visibility. As making that read only and editable.
+Same can be done from the permission set in the object settings for particular user.
+
+Now lets see from page layouts:
+
+With the help of page layout in Salesforce, we can make a field read-only, or required.
+
+We can make field readonly for any particular profile while creating that field as well.
 
 
 
