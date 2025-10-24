@@ -363,11 +363,14 @@ These permissions allow admins to override field-level security, including read-
 
 So general steps on field are ----------------------
 
-While creating the field i can set:
+While creating the field I can set:
 
-1. Required on the creation page, whether its necessary or not. If not then ill leave it. (Once made it required you cannot set it to readonly or not required on page layout).
+1. Required on the creation page, whether its necessary or not. If not then i'll leave it. (Once made it required you cannot set it to readonly or not required on page layout).
+Also if made required you cannot set the visible or readonly for profiles on the creartion page.
 Now once this field is created we can set who can see it or which profiles can see it. 
-And once visible we can also set if any profile can just have a read access only. This is the first point to set the read access.
+And once visible we can also set if any profile can just have a read access only. This is the first point to set the read access or visibility.
+
+Now if in future any new profile is created then I can set these things like visibility and readonly access on that profile as well.
 
 2. Visible for any profile or not. If visible
 3. Readonly for that profile or not.
