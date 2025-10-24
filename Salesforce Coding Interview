@@ -373,7 +373,7 @@ And once visible we can also set if any profile can just have a read access only
 
 Now if in future any new profile is created then I can set these things like visibility and readonly access on that profile as well.
 Field level security on field creation page and on profile page are interconnected. You can set this security on any page and it works fine.
-
+Both are interconnected. You change on one page and it reflects on the other page.
 Understood: 
 
 
