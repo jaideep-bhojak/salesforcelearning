@@ -366,7 +366,8 @@ So general steps on field are ----------------------
 While creating the field I can set:
 
 1. Required on the creation page, whether its necessary or not. If not then i'll leave it. (Once made it required you cannot set it to readonly or not required on page layout).
-Also if made required you cannot set the visible or readonly for profiles on the creartion page.
+Also if made required you cannot set the visible or readonly for profiles on the creartion page. It is set to visible for all the profiles by default and can set readonly and both are disabled.
+
 Now once this field is created we can set who can see it or which profiles can see it. 
 And once visible we can also set if any profile can just have a read access only. This is the first point to set the read access or visibility.
 
