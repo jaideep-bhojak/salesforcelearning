@@ -372,8 +372,10 @@ Now once this field is created we can set who can see it or which profiles can s
 And once visible we can also set if any profile can just have a read access only (🔲 Visible	 🔲 Read-Only). This is the first point to set the read access or visibility.
 
 Now if in future any new profile is created then I can set these things like visibility and readonly access on that profile as well.
+Field level security on field creation page and on profile page are interconnected. You can set this security on any page and it works fine.
 
-Always field level security on field creation page gets the priority unless and until these are set on profile manually.
+Understood: 
+
 
 2. Visible for any profile or not. If visible:
 3. Readonly for that profile or not.
