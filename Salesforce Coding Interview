@@ -379,7 +379,12 @@ Both are interconnected. You change on one page and it reflects on the other pag
 3. Readonly for that profile or not.
 +----------------------------------------------------+--------------------------------------------------------------------------------------
 
-Salesforce Record Types
+Salesforce Page Layouts
+
+You can create page layouts and even edit the assignments to the specific profiles like a particular profile can 
+see only a particular page layout.
+
+So the assignment is profile wise.
 
 
 
