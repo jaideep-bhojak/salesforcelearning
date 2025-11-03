@@ -393,6 +393,10 @@ Actions tab is the right side of the Highlights panel.
 Record types:
 
 I created two record types for techincal and non technoical courses in the course objects picklist. 
+Then assign these to 2 different record types to 2 different layouts. 
+And when you create a new record we get a pop up to choose the record type data to create for.
+
+
 
 
 
