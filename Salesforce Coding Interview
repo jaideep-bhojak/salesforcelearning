@@ -388,10 +388,11 @@ So the assignment is profile wise.
 
 Ok now I created a page layout created sections in it.
 Actions tab is the right side of the Highlights panel.
++------------------------------------------------------------------------------------------------------------------------------+
 
+Record types:
 
-
-
+I created two record types for techincal and non technoical courses in the course objects picklist. 
 
 
 
