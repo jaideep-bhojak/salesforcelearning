@@ -31,6 +31,17 @@ Can’t contain a hyphen (dash)
 Use camel case to name your component myComponent. Camel case component folder names map to kebab-case in markup.
 In markup, to reference a component with the folder name myComponent, use <c-my-component>.
 
+<!-- parent.html -->
+<template>
+  <c-my-component></c-my-component>
+</template>
+
+Component HTML File
+
+Every UI component must have an HTML file with the root tag <template>. 
+API module components (libraries) don’t require an HTML file.
+
+So there are 2 kinds of LWC components - UI components and API module components.
 
 
 
