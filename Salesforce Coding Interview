@@ -436,6 +436,9 @@ You also get an increase from 50,000 max records with the import wizard, to 5,00
 dataloader.io
 
 It is 100% cloud-based and accessed through your browser.
+Ability to schedule tasks, and secondly, dataloader.io can automatically find parent records based on text, not an ID, pretty much carrying out the VLookup for you.
+
+
 
 
 
