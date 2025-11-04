@@ -431,6 +431,7 @@ Teams Integration
 
 Salesforce Data Loader - 
 It allows you to insert, update, upsert, delete, and export.
+You also get an increase from 50,000 max records with the import wizard, to 5,000,000.
 
 dataloader.io
 
