@@ -36,12 +36,46 @@ In markup, to reference a component with the folder name myComponent, use <c-my-
   <c-my-component></c-my-component>
 </template>
 
-Component HTML File
+Component HTML File - 
+
+So there are 2 kinds of LWC components - UI components and API module components.
 
 Every UI component must have an HTML file with the root tag <template>. 
 API module components (libraries) don’t require an HTML file.
 
-So there are 2 kinds of LWC components - UI components and API module components.
+A component’s HTML file can have a maximum file size of 128 KB (131,072 bytes).
+
+File looks like this:
+<!-- myComponent.html -->
+<template>
+  <!-- Replace comment with component HTML -->
+</template>
+
+When a component renders, the <template> tag is replaced with the name of the component, <namespace-component-name>. 
+For example, in the browser console, myComponent renders as <c-my-component>, where c is the default namespace. c is the what?
+
+Custom elements must include separate closing tags. For example, the c-todo-item component nested in this component includes a separate closing </c-todo-item> tag.
+
+<!-- myComponent.html -->
+<template>
+  <c-todo-item></c-todo-item>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
