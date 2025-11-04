@@ -15,3 +15,23 @@ myComponent
    └──__tests__
        ├──data
        └──myComponent.test.js
+
+Component Names 
+
+The folder and its files must follow these naming rules.
+
+Must begin with a lowercase letter
+Must contain only alphanumeric or underscore characters
+Must be unique in the namespace
+Can’t include whitespace
+Can’t end with an underscore
+Can’t contain two consecutive underscores
+Can’t contain a hyphen (dash)
+
+
+
+
+
+
+
+
