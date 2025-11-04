@@ -410,6 +410,25 @@ a. Data Loader :
 
 The 6 Best Data Loaders for Salesforce (Pros & Cons)
 
+Data Import Wizard - 
+
+Maximum of 50,000 records at a time, can only import data, experienced users may find the lack of settings frustrating.
+
+Under this Integrations tab we get this:
+
+API
+> API Catalog
+Basic Data Import
+Change Data Capture
+Data Import Wizard
+Data Loader
+Dataloader.io
+External Data Sources
+External Objects
+External Services
+Platform Events
+Teams Integration
+
 
 
 
