@@ -397,6 +397,20 @@ Then assign these to 2 different record types to 2 different layouts.
 And when you create a new record we get a pop up to choose the record type data to create for.
 It is used to segregate the picklists for different records.
 
+------------------------------------------------------------------+
+
+Data Management and Security
+
+1. Data Import and Export Tools
+ a. Data Loader
+ b. Dataloader.io
+ c. Data Import Wizard
+
+a. Data Loader : 
+
+The 6 Best Data Loaders for Salesforce (Pros & Cons)
+
+
 
 
 
