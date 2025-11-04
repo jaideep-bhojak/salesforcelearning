@@ -28,7 +28,7 @@ Can’t end with an underscore
 Can’t contain two consecutive underscores
 Can’t contain a hyphen (dash)
 
-
+Use camel case to name your component myComponent. Camel case component folder names map to kebab-case in markup.
 
 
 
