@@ -1,1 +1,17 @@
+Create Lightning Web Components
 
+Define a Component
+
+
+Component files:
+
+myComponent
+   ├──myComponent.html
+   ├──myComponent.js
+   ├──myComponent.js-meta.xml
+   ├──myComponent.css
+   ├──myComponent.svg
+   ├──utils.js
+   └──__tests__
+       ├──data
+       └──myComponent.test.js
