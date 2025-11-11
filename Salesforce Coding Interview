@@ -490,6 +490,8 @@ Transition: Salesforce is moving towards Flows and Process Builder for more adva
 They’re great for straightforward tasks but are being phased out in favor of Flows, which offer more flexibility and power.
 
 
+You can update any field according to a condition using worklow rules other than Triggers.
+
 
 
 
