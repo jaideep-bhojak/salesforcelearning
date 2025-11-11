@@ -539,6 +539,9 @@ Complexity: Hard to debug when many processes overlap.
 Retirement: Salesforce has announced that Process Builder will be retired by 2026, with Flows as the replacement
 
 
+Agar same records ki field update krni ho to workflow will work
+But agar dusre object ke records create krne he based on any field update or create on the current objects fields to process builder use krna he.
+
 
 
 
