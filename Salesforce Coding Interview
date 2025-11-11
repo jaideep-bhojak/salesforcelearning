@@ -476,6 +476,8 @@ Email Alert → Send notifications using templates.
 Task Creation → Assign tasks to users.
 Outbound Message → Send data to external systems via SOAP messages.
 
+We cant create another record using Workflow rules.
+
 
 Example Use Cases
 Send an email to the Account Owner when a new high-value Opportunity is created.
@@ -501,7 +503,12 @@ Purpose: Automates complex business processes without writing Apex code.
 Status: Still supported, but Salesforce recommends migrating to Flows for future‑proof automation.
 
 
+Key Features
 
+Multiple Criteria: You can evaluate multiple conditions in one process.
+Immediate & Scheduled Actions: Trigger actions right away or at a scheduled time.
+Supports Related Records: Unlike Workflow Rules, Process Builder can update related records.
+Chaining Processes: One process can call another, enabling modular automation.
 
 
 
