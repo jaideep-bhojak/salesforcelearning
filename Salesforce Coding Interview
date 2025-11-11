@@ -543,6 +543,12 @@ Agar same records ki field update krni ho to workflow will work
 But agar dusre object ke records create krne he based on any field update or create on the current objects fields to process builder use krna he.
 
 
+Why Process Builder > Workflow Rule
+Can update related records (Accounts from Opportunities).
+
+Can chain multiple criteria and actions in one process.
+
+Can invoke Flows or Apex for advanced logic.
 
 
 
