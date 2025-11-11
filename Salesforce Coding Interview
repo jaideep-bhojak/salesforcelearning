@@ -482,11 +482,12 @@ Send an email to the Account Owner when a new high-value Opportunity is created.
 Update the Status field to “Follow-Up” when a Case is reopened.
 Create a task for a Sales Rep when a Lead’s rating changes to “Hot.”
 
+Limits & Transition
+Limits: Workflow Rules cannot update related records or perform complex branching logic.
+Transition: Salesforce is moving towards Flows and Process Builder for more advanced automation. Workflow Rules are still supported but considered legacy automation
 
-
-
-
-
+✅ In short: Workflow Rules are simple, rule-based automations in Salesforce that trigger actions when records meet defined criteria. 
+They’re great for straightforward tasks but are being phased out in favor of Flows, which offer more flexibility and power.
 
 
 
