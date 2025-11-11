@@ -573,11 +573,45 @@ Can branch with complex logic.
 Can call Apex, subflows, or external services.
 Future‑proof: Salesforce is retiring Workflow Rules & Process Builder by 2026.
 
+Example: 
+
+Auto‑Update Account When Opportunity is Closed Won
+Here’s how you’d build the same automation we did in Workflow Rule & Process Builder, but in Flow:
+
+Go to Setup → Flows → New Flow.
+
+Choose Record‑Triggered Flow.
+
+Select Object: Opportunity.
+
+Trigger: When record is updated.
+
+Entry Condition: Stage = Closed Won.
+
+Add Update Records Element:
+
+Choose Update Related Records.
+
+Select Account related to Opportunity.
+
+Set Customer_Status__c = Active.
+
+Save & Activate the Flow.
 
 
 
+Visual Structure
 
+Start → Record Trigger (Opportunity updated).
+Decision → Check if Stage = Closed Won.
+Update Records → Update related Account field.
 
+Best Practices
+
+Always use Before Save Flows for field updates (faster, no extra DML).
+Use After Save Flows for actions like email alerts, related record updates.
+Keep Flows modular → break into subflows for reusability.
+Add fault paths (error handling) to catch failures.
 
 
 
