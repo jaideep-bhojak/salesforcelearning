@@ -493,6 +493,12 @@ They’re great for straightforward tasks but are being phased out in favor of F
 You can update any field according to a condition using worklow rules other than Triggers.
 
 
+Process Builder:
+
+What Process Builder Is
+Definition: A visual automation tool that allows admins to build processes using a flowchart‑style interface.
+Purpose: Automates complex business processes without writing Apex code.
+Status: Still supported, but Salesforce recommends migrating to Flows for future‑proof automation.
 
 
 
