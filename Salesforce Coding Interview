@@ -450,11 +450,31 @@ Definition: Workflow Rules are instructions that tell Salesforce to automaticall
 Purpose: They help reduce manual work by automating repetitive tasks such as notifications, updates, and assignments.
 Scope: Can be applied to standard and custom objects.
 
+Key Components: 
+
+Evaluation Criteria
+Decide when the rule runs (e.g., when a record is created, edited, or meets certain conditions).
+Options include:
+Created
+Created and every time it’s edited
+Created and edited to meet criteria
+
+Rule Criteria
+
+Logical conditions that determine if the workflow should fire (e.g., Status = 'Closed Won').
+
+Actions
+
+Immediate Actions: Triggered right away (e.g., send an email, update a field).
+Time-Dependent Actions: Triggered at a scheduled time after the rule criteria are met (e.g., send a reminder email 7 days later).
 
 
+Types of Workflow Actions - 
 
-
-
+Field Update → Automatically change values in fields.
+Email Alert → Send notifications using templates.
+Task Creation → Assign tasks to users.
+Outbound Message → Send data to external systems via SOAP messages.
 
 
 
