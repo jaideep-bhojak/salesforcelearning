@@ -565,7 +565,13 @@ Screen Flow → Provides a UI for users to input data (like a guided wizard).
 Autolaunched Flow → Runs in the background, invoked by other processes or Apex.
 
 
+Why Flow > Workflow Rules & Process Builder
 
+Can update related records (not just the triggering record).
+Can loop through collections (bulk processing).
+Can branch with complex logic.
+Can call Apex, subflows, or external services.
+Future‑proof: Salesforce is retiring Workflow Rules & Process Builder by 2026.
 
 
 
