@@ -477,9 +477,10 @@ Task Creation → Assign tasks to users.
 Outbound Message → Send data to external systems via SOAP messages.
 
 
-
-
-
+Example Use Cases
+Send an email to the Account Owner when a new high-value Opportunity is created.
+Update the Status field to “Follow-Up” when a Case is reopened.
+Create a task for a Sales Rep when a Lead’s rating changes to “Hot.”
 
 
 
