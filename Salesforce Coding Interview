@@ -443,6 +443,13 @@ Ability to schedule tasks, and secondly, dataloader.io can automatically find pa
 
 Salesforce Automation Tools:
 
+Workflow Rules: 
+
+What Workflow Rules Are
+Definition: Workflow Rules are instructions that tell Salesforce to automatically perform actions when records meet defined criteria.
+Purpose: They help reduce manual work by automating repetitive tasks such as notifications, updates, and assignments.
+Scope: Can be applied to standard and custom objects.
+
 
 
 
