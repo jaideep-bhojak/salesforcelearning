@@ -477,6 +477,7 @@ Task Creation → Assign tasks to users.
 Outbound Message → Send data to external systems via SOAP messages.
 
 We cant create another record using Workflow rules.
+Cant update any - related records.
 
 
 Example Use Cases
@@ -510,13 +511,32 @@ Immediate & Scheduled Actions: Trigger actions right away or at a scheduled time
 Supports Related Records: Unlike Workflow Rules, Process Builder can update related records.
 Chaining Processes: One process can call another, enabling modular automation.
 
+Common Actions
+
+Create Records (e.g., auto‑create a Task when a Lead is converted).
+
+Update Records (both the triggering record and related records).
+
+Send Email Alerts using templates.
+
+Post to Chatter for collaboration.
+
+Invoke Flows or Apex for advanced logic.
+
+Example Use Case
+Imagine you want to auto‑update an Account’s “Customer Status” field to “Active” when an Opportunity is Closed Won:
+
+Object: Opportunity.
+Criteria: Stage = Closed Won.
+Action: Update related Account → set Customer_Status__c = 'Active'.
+
+This is something Workflow Rules cannot do, but Process Builder can.
 
 
-
-
-
-
-
+Limitations - 
+Performance: Multiple processes can slow down record saves.
+Complexity: Hard to debug when many processes overlap.
+Retirement: Salesforce has announced that Process Builder will be retired by 2026, with Flows as the replacement
 
 
 
