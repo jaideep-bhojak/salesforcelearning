@@ -551,6 +551,33 @@ Can chain multiple criteria and actions in one process.
 Can invoke Flows or Apex for advanced logic.
 
 
+Flow
+
+What is Flow?
+Definition: Flow is Salesforce’s most powerful automation tool. It lets you build logic visually (drag‑and‑drop) to automate processes without Apex code.
+
+
+Types of Flows:
+
+Record‑Triggered Flow → Runs when a record is created, updated, or deleted.
+Scheduled Flow → Runs at a specific time (like nightly jobs).
+Screen Flow → Provides a UI for users to input data (like a guided wizard).
+Autolaunched Flow → Runs in the background, invoked by other processes or Apex.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
