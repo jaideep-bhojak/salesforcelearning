@@ -614,6 +614,54 @@ Keep Flows modular → break into subflows for reusability.
 Add fault paths (error handling) to catch failures.
 
 
++-----------------------------------------------------------------------------------------------+
+
+Salesforce Apex:
+
+Platform developer
+
++-----------------------------------------------------------------------------------------------+
+
+Introduction to Apex
+
+What Is Apex?
+
+Use Cases:
+
+Automating record updates via triggers
+Creating custom web services
+Building complex validation rules
+Executing batch jobs for large data volumes
+Enforcing security and sharing logic beyond declarative tools
+
+So, with apex you can automate record updates via triggers etc.
+
+Supports classes, interfaces, loops, and exception handling.
+
+Triggers	Code that runs before/after record changes.
+Governor Limits	Enforces limits on CPU time, queries, and memory to ensure multi-tenant safety.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
