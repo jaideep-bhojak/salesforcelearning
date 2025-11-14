@@ -655,8 +655,44 @@ You also can’t expose logic to be re-used anywhere else in your org.
 SO dont write the logic methods in the triggers.
 So write the logic in the handler classes of the triggers.
 
+3. Context-Specific Handler Methods
+Create context-specific handler methods in Trigger handlers.
+
+4. Avoid SOQL Queries or DML statements inside FOR Loops - 
+
+An individual Apex request gets a maximum of 100 SOQL queries before exceeding that governor limit. 
+So if this trigger is invoked by a batch of more than 100 Account records, the governor limit will throw a runtime exception
+
+So, take the records in a list in a for loop and hit one query outside for - loop. 
 
 
+5. Using Collections, Streamlining Queries, and Efficient For Loops - 
+
+same as above use maps and lists to store data.
+
+6. Querying Large Data Sets
+
+The total number of records that can be returned by SOQL queries in a request is 50,000. 
+If returning a large set of queries causes you to exceed your heap limit, then a SOQL query for loop must be used instead.
+It can process multiple batches of records through internal calls to query and query more.
+
+Means store less data in vars and use the retreived data from query directly in the for loop.
+
+7. Use @future Appropriately - 
+
+This is also true for asynchronous Apex methods (those annotated with the @future keyword). 
+@future methods are called asynchronously.
+
+
+How to avoid recursion in Trigger
+
+How to avoid recursion in trigger?
+There are different ways to solve the recursion in the trigger.
+
+Use Static Boolean Variable
+Use Static Set to Store Record Id.
+Use Static Map
+Use Old Map
 
 
 
