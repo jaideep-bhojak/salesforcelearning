@@ -694,7 +694,15 @@ Use Static Set to Store Record Id.
 Use Static Map
 Use Old Map
 
+DML Without Triggers
+When you perform a DML operation in Apex (like insert, update, delete), Salesforce does not inherently batch your records into chunks of 200 unless triggers or automation are involved.
 
+If there are no triggers, workflows, flows, or processes on that object, Salesforce will simply attempt to process all records in one DML statement — subject to governor limits.
+
+⚡ Governor Limits Context
+Single DML statement limit: You can insert/update/delete up to 10,000 records in one DML operation.
+Trigger context limit: When triggers exist, Salesforce passes records to the trigger in chunks of up to 200 records per execution.
+No trigger case: If you insert 500 records with no trigger, Salesforce will process all 500 in one go (not split into 200 + 200 + 100).
 
 
 
