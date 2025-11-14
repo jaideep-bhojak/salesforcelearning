@@ -642,6 +642,20 @@ Triggers	Code that runs before/after record changes.
 Governor Limits	Enforces limits on CPU time, queries, and memory to ensure multi-tenant safety.
 
 
+Triggers:
+
+1. One Trigger Per Object
+A single Apex Trigger is all you need for one particular object. 
+So I can create multiple triggers for a single object. But the best practice is to keep one trigger per object. 
+If you develop multiple Triggers for a single object, you have no way of controlling the order of execution if those Triggers can run in the same contexts.
+
+2. Logic-less Triggers
+If you write methods in your Triggers, those can’t be exposed for test purposes. 
+You also can’t expose logic to be re-used anywhere else in your org.
+SO dont write the logic methods in the triggers.
+So write the logic in the handler classes of the triggers.
+
+
 
 
 
